@@ -612,20 +612,16 @@ html {
   margin-bottom: 2.5rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
 .mb-4 {
   margin-bottom: 1rem;
 }
 
-.ml-24 {
-  margin-left: 6rem;
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
-.mr-2 {
-  margin-right: 0.5rem;
+.ml-24 {
+  margin-left: 6rem;
 }
 
 .inline-block {
@@ -660,11 +656,6 @@ html {
   width: 850px;
 }
 
-.translate-y-\[1px\] {
-  --tw-translate-y: 1px;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .flex-row {
   flex-direction: row;
 }
@@ -687,16 +678,6 @@ html {
 
 .rounded-xl {
   border-radius: 0.75rem;
-}
-
-.bg-SS-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(32 32 32 / var(--tw-bg-opacity));
-}
-
-.bg-SS-dark-gray {
-  --tw-bg-opacity: 1;
-  background-color: rgb(186 186 186 / var(--tw-bg-opacity));
 }
 
 .bg-SS-green {
@@ -766,17 +747,7 @@ html {
 
 .text-4xl {
   font-size: 2.25rem;
-  line-height: 2.25rem;
-}
-
-.text-8xl {
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+  line-height: 2.5rem;
 }
 
 .text-6xl {
@@ -784,9 +755,14 @@ html {
   line-height: 1;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -803,16 +779,6 @@ html {
   color: rgb(224 218 218 / var(--tw-text-opacity));
 }
 
-.text-SS-green {
-  --tw-text-opacity: 1;
-  color: rgb(136 178 140 / var(--tw-text-opacity));
-}
-
-.text-SS-purple {
-  --tw-text-opacity: 1;
-  color: rgb(189 116 201 / var(--tw-text-opacity));
-}
-
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -821,11 +787,6 @@ html {
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .shadow-black {
@@ -861,24 +822,12 @@ html {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:text-SS-purple:hover {
-  --tw-text-opacity: 1;
-  color: rgb(189 116 201 / var(--tw-text-opacity));
-}
-
-.hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .hover\:text-SS-green:hover {
   --tw-text-opacity: 1;
   color: rgb(136 178 140 / var(--tw-text-opacity));
 }
 
-@media (min-width: 640px) {
-  .sm\:hover\:translate-y-2:hover {
-    --tw-translate-y: 0.5rem;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
