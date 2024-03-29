@@ -3,13 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./output.css" rel="stylesheet">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="output.css" rel = "stylesheet">
 </head>
-<body>
-    <header>
-        <h1 class="text-green-500">StudySphere</h1>
+
+<body class="bg-SS-lightestgreen font-poppins">
+    <div class="triangle w-[850px] h-[450px] bg-SS-lightgreen right-0 top-[greentristick] z-{1} absolute"></div>
+    <header class= "sticky px-10 bg-white">
+        <nav class="text-SS-black flex justify-between py-6">
+            <div class="container w-64 text-xl font-bold">
+                <a href = "index.html" class="flex flex-row">
+                    <h1 class="text-EV-black">StudySphere</h1>
+                </a>
+            </div>
+            <div class="inline-block px-5"><a class = "text-xl ease duration-300 hover:text-EV-purple" href = "about.html">About</a></div>
+        </nav>
     </header>
+
+    <div class = "container ml-24 mx-auto flex-row pt-20 bg-SS-lightestgreen">
+        <h1 class="font-bold text-8xl mb-10 text-SS-black">StudySphere</h1>
+        <p class="text-xl text-gray-500 pb-16">All the tools you need for academic success. All on one website.</p>
+        
+        <nav>
+            <button class="text-xl text-SS-gray w-64 h-16 rounded-xl bg-SS-green hover:text-white ease-in-out duration-300 hover:-translate-y-2"><a href="####.html">Get Started</a></button>
+        </nav>
+    </div>
+
+    <div class="flex flex-row justify-around px-10 font-poppins my-20">
+        <button class="rounded-2xl bg-white shadow-black w-96 h-72 text-center text-2xl text-black drop-shadow-lg hover:-translate-y-2 ease duration-300">Study Method Quiz</button>
+        <button class="rounded-2xl bg-white shadow-black w-96 h-72 text-center text-2xl text-black drop-shadow-lg hover:-translate-y-2 ease duration-300">Study Planner</button>
+        <button class="rounded-2xl bg-white shadow-black w-96 h-72 text-center text-2xl text-black drop-shadow-lg hover:-translate-y-2 ease duration-300">AI Assistant</button>
+    </div>
+
+
+    <footer>
+        <div class="bg-white px-10 p-20">
+            <div class="flex justify-center mb-4">
+                <h1 class="font-bold text-4xl mb-10 text-SS-black">StudySphere</h1>
+            </div>
+            <nav class="text-black flex justify-around font-poppins py-2">
+                <ul>
+                    <li class="inline-block px-5 posfooter"><a class="text-xl ease duration-300 hover:text-SS-green" href="#">Contact</a></li>
+                    <li class="inline-block px-5 posfooter"><a class="text-xl ease duration-300 hover:text-SS-green" href="#">Help</a></li>
+                    <li class="inline-block px-5 posfooter"><a class="text-xl ease duration-300 hover:text-SS-green" href="#">About</a></li>
+                    <li class="inline-block px-5 posfooter"><a class="text-xl ease duration-300 hover:text-SS-green" href="#">Disclaimer</a></li>
+                    <li class="inline-block px-5 posfooter"><a class="text-xl ease duration-300 hover:text-SS-green" href="#">Services</a>
+                        <div class="servicesdot"></div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
     
 </body>
+
 </html>
