@@ -612,6 +612,10 @@ html {
   margin-bottom: 2.5rem;
 }
 
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -642,6 +646,10 @@ html {
 
 .h-\[450px\] {
   height: 450px;
+}
+
+.w-40 {
+  width: 10rem;
 }
 
 .w-64 {
