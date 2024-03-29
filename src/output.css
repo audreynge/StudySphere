@@ -612,6 +612,10 @@ html {
   margin-bottom: 2.5rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -766,7 +770,7 @@ html {
 }
 
 .text-8xl {
-  font-size: 6rem;
+  font-size: 4.5rem;
   line-height: 1;
 }
 
