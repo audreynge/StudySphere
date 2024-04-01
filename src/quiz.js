@@ -112,16 +112,16 @@ option3.addEventListener("click", function() {
 function displayResults() {
     option2.style.display = "none";
     option3.style.display = "none";
-    if (userScore >= 13){
-        questionContainer.textContent = "Active Recall and Spaced Reptition";
+    if (userScore >= 10){
+        questionContainer.textContent = "You got: Active Recall and Spaced Repetition";
         option1.textContent = "";
     }
-    else if (userScore >= 8){
-        questionContainer.textContent = "Pomodoro Technique";
+    else if (userScore >= 6){
+        questionContainer.textContent = "You got: Pomodoro Technique";
         option1.textContent = "";
     }
     else {
-        questionContainer.textContent = "Visualization and Mind Mapping";
+        questionContainer.textContent = "You got: Visualization and Mind Mapping";
         option1.textContent = "";
     }
 
