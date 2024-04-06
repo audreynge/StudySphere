@@ -644,6 +644,10 @@ html {
   height: 18rem;
 }
 
+.h-80{
+  height: 20rem;
+}
+
 .h-\[450px\] {
   height: 450px;
 }
@@ -658,6 +662,10 @@ html {
 
 .w-96 {
   width: 24rem;
+}
+
+.w-120 {
+  width: 30rem;
 }
 
 .w-\[850px\] {
@@ -710,6 +718,10 @@ html {
 
 .p-20 {
   padding: 5rem;
+}
+
+.p-14{
+  padding: 3.5rem;
 }
 
 .px-10 {
