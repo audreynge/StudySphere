@@ -603,6 +603,11 @@ html {
   margin-right: auto;
 }
 
+.mx-timer {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .my-20 {
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -650,6 +655,10 @@ html {
 
 .h-\[450px\] {
   height: 450px;
+}
+
+.w-30 {
+  width: 7.5rem;
 }
 
 .w-40 {
@@ -850,4 +859,9 @@ html {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-black:hover {
+  --tw-text-opacity: 0;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
