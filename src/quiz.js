@@ -27,12 +27,12 @@ const quizData = {
         ],
     },
     "question4": {
-        "question": "What time of day do you prefer to study?",
+        "question": "How do you prefer to take breaks during study sessions?",
         "options": [
-            {"text": "Morning", "points": 2},
-            {"text": "Afternoon", "points": 1},
-            {"text": "Evening", "points": 3}
-        ],
+            {"text": "Taking short breaks often", "points": 1},
+            {"text": "Taking longer breaks after every hour", "points": 2},
+            {"text": "Studying continuously without breaks until the task is complete", "points": 3}
+        ]
     },
     "question5": {
         "question": "Which type of learner do you consider yourself to be?",
@@ -112,17 +112,20 @@ option3.addEventListener("click", function() {
 function displayResults() {
     option2.style.display = "none";
     option3.style.display = "none";
-    if (userScore >= 10){
+    if (userScore >= 11){
         questionContainer.textContent = "You got: Active Recall and Spaced Repetition";
-        option1.textContent = "";
+        option1.textContent = "Strengthen memory by actively retrieving information and reviewing it at spaced intervals. This technique encourages deeper engagement with the material and efficient use of time.";
+        option1.style.width = "35rem";
     }
-    else if (userScore >= 6){
+    else if (userScore >= 7){
         questionContainer.textContent = "You got: Pomodoro Technique";
-        option1.textContent = "";
+        option1.textContent = "Increase focus and productivity by breaking study sessions into manageable intervals, typically 25 minutes, separated by short breaks. This method helps prevent burnout and maintains mental freshness throughout the study session.";
+        option1.style.width = "35rem";
     }
     else {
         questionContainer.textContent = "You got: Visualization and Mind Mapping";
-        option1.textContent = "";
+        option1.textContent = "Enhance comprehension and recall by creating mental images or diagrams to represent and organize information. This technique promotes a deeper understanding of complex concepts and aids in connecting related ideas for improved learning outcomes.";
+        option1.style.width = "35rem";
     }
 
 }

@@ -613,6 +613,11 @@ html {
   margin-bottom: 5rem;
 }
 
+.my-15 {
+  margin-top: 3.75rem;
+  margin-bottom: 3.75rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -635,6 +640,10 @@ html {
 
 .inline-block {
   display: inline-block;
+}
+
+.block {
+  display: block;
 }
 
 .flex {
@@ -683,6 +692,10 @@ html {
 
 .flex-row {
   flex-direction: row;
+}
+
+.flex-col{
+  flex-direction: column;
 }
 
 .justify-center {
@@ -862,6 +875,11 @@ html {
 }
 
 .hover\:text-black:hover {
-  --tw-text-opacity: 0;
+  --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.hover\:text-gray:hover {
+  --tw-text-opacity: 1;
+  color: #c4c5cb;
 }
